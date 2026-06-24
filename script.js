@@ -14,12 +14,12 @@ const logs = [
 const webBuilds = [
   {
     title: "Drive",
-    desc: "simple 2d car driving game with unity partical and triggre based mechanics.",
+    desc: "Simple 2d car driving game with unity partical and triggre based mechanics.",
     tags: ["Next.js", "Stripe"],
     video: "assets/Drive.mp4",
   },
   {
-    title: "clean movement and Dash",
+    title: "Clean Covement and Dash",
     desc: "Abstract momentum-based platformer set in a fracturing digital world.",
     tags: ["React", "D3"],
     video: "assets/MOvement.mp4",
