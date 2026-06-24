@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Samuel Subba — Indie Game Developer Portfolio</title>
+<meta name="description" content="Independent game developer crafting tactile digital experiences with physics-based movement and retro-futurist aesthetics." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="starfield" aria-hidden="true"></div>
+  <div id="crt-overlay" aria-hidden="true"></div>
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <div class="brand">
+        <span class="dot"></span>
+        <span class="brand-name">SamuelSubba</span>
+      </div>
+      <div class="nav-links">
+        <a href="#projects">Projects</a>
+        <a href="#webdev">Web Dev</a>
+        <a href="#journal">Journal</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>SAMUEL SUBBA</h1>
+          <p>Aspiring computer science student with a passion for game development and software engineering.</p>
+          <div class="cta-row">
+            <button class="btn btn-primary"><span>▶</span> Latest Launch</button>
+            <button class="btn btn-ghost">View Repositories</button>
+          </div>
+        </div>
+        <div class="featured">
+          <div class="featured-glow"></div>
+          <div class="featured-card">
+            <div class="featured-img-wrap">
+              <img src="assets/featured-signal-void.jpg" alt="Signal Void — featured indie game" />
+            </div>
+            <div class="featured-meta">
+              <span class="cyan-tag">Featured Project</span>
+              <span class="dim-tag">Signal Void · 2024</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="container">
+        <div class="section-head">
+          <h2>Web Development</h2>
+          <span class="dim-tag">[ 03 Entries Found ]</span>
+        </div>
+        <div class="grid-3" id="project-grid"></div>
+      </div>
+    </section>
+
+    <section id="webdev" class="webdev">
+      <div class="container">
+        <div class="section-head">
+          <h2>Games, Concepts, and Experiments</h2>
+          <span class="dim-tag">[ 03 Live Builds ]</span>
+        </div>
+        <div class="grid-3" id="webdev-grid"></div>
+      </div>
+    </section>
+
+    <section id="journal" class="journal">
+      <div class="container journal-grid">
+        <div>
+          <h3 class="kicker">Internal Logs</h3>
+          <p class="muted">Documenting technical hurdles, creative breakthroughs, and the slow climb of indie development.</p>
+        </div>
+        <div id="log-list" class="log-list"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <div class="container footer-inner">
+      <div>
+        <p class="kicker dim">Status: Ready to Collaborate</p>
+        <a href="mailto:samuelcodes7@gmail.com" class="email">samuelcodes7@gmail.com</a>
+      </div>
+      <div class="socials">
+        <a href="#">Twitter</a>
+        <a href="#">GitHub</a>
+        <a href="#">Itch.io</a>
+        <a href="#">Discord</a>
+      </div>
+    </div>
+  </footer>
+
+  <script type="importmap">
+  { "imports": { "three": "https://unpkg.com/three@0.160.0/build/three.module.js" } }
+  </script>
+  <script type="module" src="script.js"></script>
+</body>
+</html>
